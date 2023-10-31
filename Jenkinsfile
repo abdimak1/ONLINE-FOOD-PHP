@@ -9,7 +9,8 @@ pipeline {
 
     stage(' ') {
       steps {
-        sh '''sh -c "ls -la"
+        sh '''#!/bin/bash
+ls -la > output.txt
 '''
       }
     }
