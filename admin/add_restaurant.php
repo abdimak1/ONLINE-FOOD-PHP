@@ -11,7 +11,11 @@ session_start();
 if(isset($_POST['submit']))          
 {
 	
-
+			
+		
+			
+		  
+		
 		
 		if(empty($_POST['c_name'])||empty($_POST['res_name'])||$_POST['email']==''||$_POST['phone']==''||$_POST['url']==''||$_POST['o_hr']==''||$_POST['c_hr']==''||$_POST['o_days']==''||$_POST['address']=='')
 		{	
@@ -93,6 +97,13 @@ if(isset($_POST['submit']))
 	
 
 }
+
+
+
+
+
+
+
 
 ?>
 <head>
@@ -189,7 +200,7 @@ if(isset($_POST['submit']))
                         </li>
                        <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery" aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_menu.php">All Menus</a></li>
+								<li><a href="all_menu.php">All Menues</a></li>
 								<li><a href="add_menu.php">Add Menu</a></li>
                               
                                 
@@ -268,13 +279,13 @@ if(isset($_POST['submit']))
                                                     <label class="control-label">Open Hours</label>
                                                     <select name="o_hr" class="form-control custom-select" data-placeholder="Choose a Category" >
                                                      <option>--Select your Hours--</option>
-                                                        <option value="5am">5am</option>
-                                                        <option value="6am">6.286cam</option> 
-														<option value="7am">7am</option>
+                                                        <option value="6am">6am</option>
+                                                        <option value="7am">7am</option> 
 														<option value="8am">8am</option>
 														<option value="9am">9am</option>
 														<option value="10am">10am</option>
-                                                        <option value="11pm">11pm</option>
+														<option value="11am">11am</option>
+                                                        <option value="12pm">12pm</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -370,7 +381,7 @@ if(isset($_POST['submit']))
                             </div>
                         </div>
                     </div>
-					<footer class="footer"> © 2023 - Online Food Ordering System | By bestdeveloper </footer>
+					<footer class="footer"> © 2023 - Online Food Ordering System | By dopedevelopers </footer>
                 </div>
                 
             </div>
